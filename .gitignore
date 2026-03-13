@@ -1,0 +1,21 @@
+# Frontend
+node_modules/
+dist/
+.env
+.env.local
+
+# Server
+server/node_modules/
+server/.env
+server/uploads/
+
+# Prisma
+server/node_modules/.prisma/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
